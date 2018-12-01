@@ -20,7 +20,7 @@ export default class Header extends React.Component {
             <div className="header">
                 <Row span="24" className="header-top">
                      <span>欢迎您，{this.state.userName}</span>
-                      <a href="#">退出</a>
+                      <a href="/">退出</a>
                 </Row>
                 <Row className="breadcrumb">
                     <Col span="4" className="breadcrumb-title">首页</Col>
