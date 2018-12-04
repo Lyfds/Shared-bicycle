@@ -8,6 +8,9 @@ import Modals from './pages/ui/Modals';
 import NoMatch from './pages/nomatch';
 import Loading from './pages/ui/Loadings';
 import Notice from './pages/ui/Notice ';
+import Message from './pages/ui/Messages';
+import Tab from './pages/ui/Tabs';
+import Gallery from './pages/ui/Gallery';
 export default class IRouter extends React.Component {
     render() {
         return (
@@ -19,8 +22,11 @@ export default class IRouter extends React.Component {
                            <Switch>
                                 <Route path="/admin/ui/buttons" component={Button} />
                                 <Route path="/admin/ui/modals" component={Modals} />
-                                <Route path="/admin/ui/Loadings" comnotDeepStrictEqualponent={Loading} />
+                                <Route path="/admin/ui/loadings" component={Loading} />
                                 <Route path="/admin/ui/notification" component={Notice} />
+                                <Route path="/admin/ui/messages" component={Message} />
+                                <Route path="/admin/ui/tabs" component={Tab} />
+                                <Route path="/admin/ui/gallery" component={Gallery} />
                                 <Route component={NoMatch} />
                            </Switch>            
                        </Admin>

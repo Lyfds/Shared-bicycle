@@ -1,4 +1,5 @@
 import React from 'react'
+import './index.less'
 import { Card,Spin ,Alert,Icon,Switch } from 'antd'
 export default class Loadings extends React.Component {
     state= {

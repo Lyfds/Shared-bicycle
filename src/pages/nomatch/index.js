@@ -1,5 +1,4 @@
 import React from 'react';
-import { red } from 'ansi-colors';
 export default class NoMatch extends React.Component {
     render() {
         return (

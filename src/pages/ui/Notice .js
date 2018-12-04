@@ -1,5 +1,6 @@
 import React from 'react';
-import { Card,Button,Radio,notification  } from 'antd';
+import './index.less';
+import { Card,Button,notification  } from 'antd';
 export default class Notice extends React.Component {
     handleOpen=(type,direction)=>{
         if(direction) {
