@@ -53,7 +53,7 @@ button {
   overflow: hidden;
 }
 .ant-carousel .slick-slide h3 {
-  color: rgba(246, 250, 33, 0.966);
+  color: #fff;
 }
 .slider-wrap .ant-carousel .slick-slide {
   height: 240px!important;
