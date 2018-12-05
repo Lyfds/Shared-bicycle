@@ -20,7 +20,7 @@ class FormLogin extends React.Component {
                              <Input placeholder="请输入用户名" />
                          </FormItem>
                          <FormItem>
-                             <Input placeholder="请输入密码" />
+                             <Input type="password" placeholder="请输入密码" />
                          </FormItem>
                          <FormItem>
                              <Button type="primary">登录</Button>
@@ -64,7 +64,7 @@ class FormLogin extends React.Component {
                                     }
                                 ]
                             })(
-                              <Input prefix={<Icon type="lock" />} placeholder="请输入密码" />
+                              <Input type="password" prefix={<Icon type="lock" />} placeholder="请输入密码" />
                             )
                         }         
                          </FormItem>
@@ -77,7 +77,7 @@ class FormLogin extends React.Component {
                               <Checkbox>记住密码</Checkbox>   
                             )
                         }
-                        <a href="#" style={{float: 'right'}}>忘记密码</a>     
+                        <a href="/" style={{float: 'right'}}>忘记密码</a>     
                          </FormItem>
                          <FormItem>
                              <Button type="primary" onClick={this.handleSubmit}>登录</Button>
